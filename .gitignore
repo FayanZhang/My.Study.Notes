@@ -1,0 +1,28 @@
+
+# 查看更多 .gitignore 配置 -> https://help.github.com/articles/ignoring-files/
+
+.git
+.obsidian
+面试技巧.docx
+
+### IntelliJ IDEA ###
+.idea
+**/.idea
+*.iws
+**/*.iws
+*.iml
+**/*.iml
+*.ipr
+**/*.ipr
+*.class
+**/*.class
+target/*
+**/target/*
+
+# dependencies
+**/node_modules
+/dist
+/.vscode
+yarn.lock
+package-lock.json
+
